@@ -1,45 +1,42 @@
-# Customer Churn Prediction using TensorFlow
+# CO2 Emissions Prediction using Random Forest Regression
 
-This repository presents a comprehensive solution for predicting and visualizing customer churn using deep learning with TensorFlow, Keras, and other essential Python libraries.
+This repository contains code for predicting CO2 emissions of vehicles using Random Forest Regression. The dataset used for training and testing the model consists of various features related to vehicles such as engine size, cylinders, fuel consumption, make, vehicle class, transmission, and fuel type.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Setup & Installation](#setup--installation)
-4. [Usage](#usage)
-5. [Results](#results)
-6. [Contributing](#contributing)
-7. [License](#license)
+## Dataset
 
-## Introduction
-This repository provides an end-to-end solution to predict customer churn from data preprocessing to model evaluation using deep learning techniques. The provided Python script leverages popular libraries such as pandas, scikit-learn, TensorFlow, and Keras to preprocess data, build predictive models, and visualize results.
+The dataset used for this project contains information about vehicles and their CO2 emissions. It includes both numerical and categorical features. 
 
-## Prerequisites
-Ensure you have the following prerequisites installed:
-- Python 3.10
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- TensorFlow
-- Keras
+## Contents
 
-## Setup & Installation
-1. Clone this repository to your local machine.
-2. Install the required Python libraries listed in the prerequisites using pip or conda.
-3. Place your dataset in the repository folder or update the file path in the provided script accordingly.
+- `CO2_Emissions_Prediction.ipynb`: Jupyter notebook containing the code for data exploration, preprocessing, model training, and prediction.
+- `README.md`: This file providing information about the project and instructions on how to use the code.
+- `data.csv`: The dataset used for training and testing the model.
+- `requirements.txt`: File listing the required Python packages and their versions.
+
+## Getting Started
+
+To run the code, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Open and run the `CO2_Emissions_Prediction.ipynb` notebook using Jupyter or any compatible environment.
 
 ## Usage
-1. Run the provided Python script in your preferred environment.
-2. Follow the prompts to input data for prediction.
-3. The script will output the predicted CO2 emissions based on the input data.
 
-## Results
-The provided script generates predictions for CO2 emissions based on user input and evaluates the accuracy of the model. Additionally, it visualizes the distribution of various features in the dataset and provides insights into the predictive performance.
+1. **Data Exploration**: Explore the dataset to understand its structure and features.
+2. **Data Preprocessing**: Handle missing values, encode categorical variables, and prepare the data for training.
+3. **Model Training**: Train a Random Forest Regression model using the prepared data.
+4. **Model Evaluation**: Evaluate the performance of the trained model using test data.
+5. **Prediction**: Use the trained model to make predictions on new data, such as user-input vehicle information.
 
-## Contributing
-Contributions to enhance the functionality or optimize the code are welcome. Feel free to submit pull requests or raise issues if you encounter any problems.
+## Requirements
 
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your purposes.
+- Python (>=3.6)
+- Jupyter Notebook
+- NumPy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+
+
